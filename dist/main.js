@@ -1,1 +1,0 @@
-new class{constructor(s,e){this.age=s,this.name=e}log(){console.log(this.age,this.name)}}(19,"Anne").log();

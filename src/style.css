@@ -1,3 +1,16 @@
-.red {
-    color: red;
+@font-face {
+    font-family: 'Pixel';
+    font-style: normal;
+    font-display: swap;
+    src: url('pixel.ttf') format('truetype');
+}
+
+.title {
+    font-family: 'Pixel', 'Verdana';
+    font-size: 28px;
+    font-weight: 400;
+    color: chartreuse;
+}
+h1 {
+    color: rgb(53, 45, 45);
 }
