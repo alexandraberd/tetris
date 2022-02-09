@@ -5,12 +5,19 @@
     src: url('pixel.ttf') format('truetype');
 }
 
+body {
+    background-color: rgb(44, 44, 44);
+}
 .title {
-    font-family: 'Pixel', 'Verdana';
+    font-family: 'Pixel', 'sans-serif';
     font-size: 28px;
     font-weight: 400;
     color: chartreuse;
+    text-align: center;
 }
-h1 {
-    color: rgb(53, 45, 45);
+canvas {
+    font-family: 'Pixel', 'sans-serif';
+
+    margin: 0 auto;
+    display: block;
 }
